@@ -14,6 +14,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
+
 	<body class="landing">
 
 		<!-- Page Wrapper -->
@@ -21,18 +22,19 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">Spectral</a></h1>
+						<h1><a href="index.html">Airbnb Predictions</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a href="http://data.beta.nyc/dataset/inside-airbnb-data/resource/9d64399b-36d6-40a9-b0bb-f26ae0d9c53f" target="_blank">Data</a></li>
+											<li><a href="https://github.com/samplank/CS109Airbnb" target="_blank">Github</a></li>
+											<li><a href="#one" class="more scrolly">Goal</a></li>
+											<li><a href="#two" class="more scrolly">Data</a></li>
+											<li><a href="#three" class="more scrolly">Data Exploration and Cleaning</a></li>
+											<li><a href="#seven" class="more scrolly">Modeling</a></li>
 										</ul>
 									</div>
 								</li>
@@ -43,123 +45,137 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>Spectral</h2>
-							<p>Another fine responsive<br />
-							site template freebie<br />
-							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
-							<ul class="actions">
-								<li><a href="#" class="button special">Activate</a></li>
-							</ul>
+							<h2>Predicting Airbnb Prices</h2>
+							<p>Mirai Shah, Richa Chaturvedi, and Sam Plank</p>
+							<p>Harvard CS109a</p>
 						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
+						<a href="#zero" class="more scrolly">Explore</a>
 					</section>
 
 				<!-- One -->
-					<section id="one" class="wrapper style1 special">
+
+					<section id="zero" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2>Team</h2>
 							</header>
 							<ul class="icons major">
-								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
+								<li><img src="newimages/mirai.jpg" width="200" height="200" /><figcaption>Mirai Shah</figcaption>
+								</li>
+								<li><img src="newimages/richa.jpg" width="200" height="200" /><figcaption>Richa Chaturvedi</figcaption></li>
+								<li><img src="newimages/sam.jpg" width="200" height="200" max-width="10%" max-height="10%" /><figcaption>Sam Plank</figcaption></li>
+							</ul>
+						</div>
+					</section>
+
+					<section id="one" class="wrapper style2 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Goal</h2>
+								<p>To ensure that listings are fairly priced for both the hosts and the visitors.  We hope to do this by the increasing transparency of the process to discover which features of a listing are most correlated with price.  A <a href="http://www.hbs.edu/faculty/Pages/item.aspx?num=46073" target="_blank">recent study</a> at the Harvard Business School revealed that non-black New York Airbnb hosts charge on average 12% more than black hosts for equivalent rentals.  We aim to standardize pricing by creating an honest model that prices listings based off of important real estate features.</p>
+							<!-- </header>
+							<ul class="icons major">
+								<li><img src="newimages/pic01.jpg" alt="" /></li>
 								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
 								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul>
+							</ul> -->
 						</div>
 					</section>
 
 				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
+					<section id="two" class="wrapper style5 special">
 						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
+						<div class="image"><img src="newimages/pic05.jpg" alt=""/></div><div class="content">
+							<h2>Data</h2>
+							<p>Our primary dataset for this project came from data.BetaNYC, an open source website aimed at improving New York City through civic technology and government transparency.  Our dataset contains thousands of New York Airbnb listings and accompanying information about location, amenities, and price.  Our secondary dataset contains the prices of listings every day of the year.  We show initial observations of the dataset here.</p>
+						</div
 						</section>
 					</section>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart-o">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
+					<section id="three" class="wrapper style4 special">
+						<section class="spotlight">
+						<div class="image"><img src="newimages/latloncluster.png" alt="" /></div><div class="content">
+							<h2>Data Exploration and Cleaning</h2>
+							<p>The data exploration and cleaning process was iterative and evolved as we worked more with the dataset.  At first we attempted using KNN to fill in missing data, but it was not effective because every row had missing values so it was difficult to compare similar listings.  We instead manually searched through the data, extrapolating some information and replacing others with means when appropriate.  Throughout this process, we looked closely at how the variables were related, and how price changed over the course of a year in order to create the best model we could.  Some of our data explorations can be seen here.</p>
+						</div>
+						</section>
+					</section>
+					<section id="four" class="wrapper style1 special">
+						<section>
+						<ul class="icons major">
+							<li><img id="cluster" src="newimages/clustering_line.png" width="600" height="600"/><figcaption>Clustering</figcaption>
+							</li>
+							<li><img id="matrix" src="newimages/matrix_color.png" width="600" height="600" /><figcaption>Matrix of Variables</figcaption></li>
+						</ul>
+							<h2>Clustering and Variable Comparison</h2>
+							<p>We first attempted to look for natural clusters in the data to see if any could be identified. We could not ascertain any significant clusters and therefore decided not to move forward with incorporating clustering into our final model. In order to compare the relationships between variables, we plotted them against one another in matrix form, which can be seen above.  As you can see, the relationships between variables are not strictly linear. </p>
+						</div>
+						</section>
+					</section>
+					<section id="five" class="wrapper style2 special">
+						<section>
+						<ul class="icons major">
+							<li><img id="cluster" src="newimages/priceneighbs.png" width="600" height="500" /><figcaption>Neighborhood Popularity and Price</figcaption>
+							</li>
+							<li><img id="matrix" src="newimages/pricezips.png" width="600" height="500" /><figcaption>Zip Code Popularity and Price</figcaption></li>
+						</ul>
+						<!-- <div class="image"><img src="newimages/matrix_color.png" alt="" width="400" height="400"/></div><div class="content"> -->
+							<h2>Price and Neighborhoods</h2>
+							<p>We examined the most popular neighborhoods and zip codes to see how popularity and price interact. In the plots above, we colored the bars by price, with redder prices being more expensive. It becomes evident that there is no clear relationship between price and popularity. For example, Williamsburg is the area with the most listings but not a very red bar, which indicates low listing prices.  The neighborhoods that were most expensive made sense with our pre-existing knowledge about New York: places like Chelsea and the East Village, which we know to be expensive, returned the reddesst bars.</p>
+						</div>
+						</section>
+					</section>
+
+					<section id="six" class="wrapper style3 special">
+						<section>
+						<ul class="icons major">
+							<li><img id="cluster" src="newimages/pricespikes1.png" width="600" height="500" /><figcaption>Daily Price Fluctuation</figcaption>
+							</li>
+							<li><img id="matrix" src="newimages/pricespikes2.png" width="600" height="500" /><figcaption>Monthly Spikes</figcaption></li>
+						</ul>
+
+						<!-- <div class="image"><img src="newimages/matrix_color.png" alt="" width="400" height="400"/></div><div class="content"> -->
+							<h2>Price and Date</h2>
+							<p>Next, we looked into the relationship between price and day of the year.  The graphs above reflect two different types of price spikes for listings: those during weekends and more significant ones during holidays.  After seeing that date seemed to affect price, we incorporated indicator variables into our dataset to reflect whether or not the price went up on holidays and weekends for each listing.</p>
+						</div>
+						</section>
+					</section>
+
+					<section id="seven" class="wrapper style4 special">
+						<section class="spotlight">
+						<div class="image"><img src="newimages/latloncluster.png" alt="" width="300" height="400"/></div><div class="content">
+							<h2>Modeling</h2>
+							<p>We tested many different models before settling on our final pick.  Our findings revealed that linear models (Multivariate Linear, Ridge, and LASSO) did not perform as well as ensemble methods.  This intuitively made sense because there did not seem to be any linear relationships between the predictors and the target variable.  Moving forward with ensemble methods, we found that after feature reduction and tuning, Gradient Boosting yielded the the consistently highest scores in price prediction.  We therefore selected Gradient Boosting as our final model.</p>
+						</div>
+						</section>
+					</section>
+
+					<section id="eight" class="wrapper style1 special">
+						<div class="image"><img src="newimages/variable_importance.png" alt="" width="750" height="500"/></div><div class="content">
+							<h2>Variable Importance</h2>
+							<p>After running our model, we wanted to visualize which variables were the most important to the model.  The results confirmed our suspicions: in real estate, nothing is more important than location, location, location.  Longitude and Latitude ranked as the top 2 most important variables, with our sentiment variable making the top 5.  This encouraged us and affirmed that we had correctly applied sentiment analysis to the reviews dataset.  None of the variables that made this list surprised us, which was a good sign because we know that as data scientists, it's important to check our results off of our intuition and common knowledge.</p>
 						</div>
 					</section>
 
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-							</header>
-							<ul class="actions vertical">
-								<li><a href="#" class="button fit special">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
+					<section id="six" class="wrapper style5 special">
+						<section>
+						<ul class="icons major">
+							<li><img id="cluster" src="newimages/longisland.png" width="600" height="500" /><figcaption>Daily Price Fluctuation</figcaption>
+							</li>
+							<li><img id="matrix" src="newimages/distance.png" width="600" height="500" /><figcaption>Monthly Spikes</figcaption></li>
+						</ul>
+						<h2>Proximity to attractions</h2>
+							<p>After confirming that location is very important in determining price, we decided to incorporate more location variables into our dataset.  We scraped the top attractions in NYC and created a variable that counted how many of them were within walking distance from each listing.</p>
 						</div>
+						</section>
 					</section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+					<section id="ten" class="wrapper style4 special">
+						<div class="image"><img src="newimages/variable_importance.png" alt="" width="750" height="500"/></div><div class="content">
+							<h2>Tuning</h2>
+							<p>In order to ensure our model was performing optimally, we performed feature reduction and tuned a number of parameters.  For Gradient Boosting, this included testing different max depths, numbers of features, and learning rates to see which performed best without overfitting the data.  After selecting the optimal parameters and reducing the dataset, we ran our final model.</p>
+						</div>
+					</section>
 
 			</div>
 
@@ -171,6 +187,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
 
 	</body>
 </html>
