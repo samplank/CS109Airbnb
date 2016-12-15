@@ -1,3 +1,19 @@
+Welcome to the GitHub for CS 109: Airbnb Pricing Predictions by Richa Chaturvedi, Mirai Shah, and Sam Plank.
+
+Our goal in this project was to increase the transparency of the Airbnb pricing process by predicting the prices of listings.  By doing so, we hoped to discover which features are the most important in determining price.
+
+Here's just a couple of things to help you get started:
+- Our website can be found at https://samplank.github.io/CS109Airbnb/
+- Our GitHub is organized into 3 main folders: Data Cleaning and Exploration, Data Modeling, and Website
+	- Data Cleaning and Exploration: Here you'll find notebooks dedicated to cleaning and exploring the dataset including listing review sentiment analysis, local attractions data, calendar data (longitudinal pricing data), and the cleaned primary data
+	- Data Modeling: Under this folder you will find notebooks about our model: this includes our baseline, tuning and feature reduction, and our final model
+	- Website: You can find everything we used to make our website here.  This folder is mostly made up of HTML files.
+
+We invite you to take a look around.  Before we sign off, we just wanted to thank everyone who made this project possible.  This includes WeiWei, Pavlos, Kevin, all of the CS 109 TFs (especially Jackie!!!) and lastly, the good people at Airbnb that started it all.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
 Spectral by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
