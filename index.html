@@ -95,7 +95,7 @@
 						<section class="spotlight">
 						<div class="image"><img src="newimages/latloncluster.png" alt="" /></div><div class="content">
 							<h2>Data Exploration and Cleaning</h2>
-							<p>The data exploration and cleaning process was iterative and evolved as we worked more with the dataset.  At first we attempted using KNN to fill in missing data, but it was not effective because every row had missing values so it was difficult to compare similar listings.  We instead manually searched through the data, extrapolating some information and replacing others with means when appropriate.  Throughout this process, we looked closely at how the variables were related, and how price changed over the course of a year in order to create the best model we could.  Some of our data explorations can be seen here.</p>
+							<p>The data exploration and cleaning process was iterative and evolved as we worked more with the dataset.  At first we attempted using KNN to fill in missing data, but it was not effective because every row had missing values so it was difficult to compare similar listings.  We instead manually searched through the data, extrapolating some information and and dropping values that were not salvageable.  Throughout this process, we looked closely at how the variables were related, and how price changed over the course of a year in order to create the best model we could.  Some of our data explorations can be seen here.</p>
 						</div>
 						</section>
 					</section>
@@ -145,7 +145,7 @@
 						</ul>
 						
 							<h2>Important Prices in Months</h2>
-							<p>Next, we looked into the relationship between price and day of the year.  The graphs above reflect two different types of price spikes for listings: those during weekends and more significant ones during holidays.  After seeing that date seemed to affect price, we incorporated indicator variables into our dataset to reflect whether or not the price went up on holidays and weekends for each listing.</p>
+							<p>We then zoomed in on three months in which we know that holidays cause price spikes: January (New Year's Day), July (Independence Day), and December (New Year's Eve).  The graphs above show that the prices of listings spike drastically around January 1, July 4, and December 31, thus reiterating the importance of incorporating holiday prices into our model.</p>
 						</div>
 						</section>
 					</section>
