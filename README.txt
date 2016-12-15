@@ -8,6 +8,7 @@ Here's just a couple of things to help you get started:
 	- Data Cleaning and Exploration: Here you'll find notebooks dedicated to cleaning and exploring the dataset including listing review sentiment analysis, local attractions data, calendar data (longitudinal pricing data), and the cleaned primary data
 	- Data Modeling: Under this folder you will find notebooks about our model: this includes our baseline, tuning and feature reduction, and our final model
 	- Website: You can find everything we used to make our website here.  This folder is mostly made up of HTML files.
+	- The folders "assets" and "new images" help our website, but contain no important code!
 
 We invite you to take a look around.  Before we sign off, we just wanted to thank everyone who made this project possible.  This includes WeiWei, Pavlos, Kevin, all of the CS 109 TFs (especially Jackie!!!) and lastly, the good people at Airbnb that started it all.
 
