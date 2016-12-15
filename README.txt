@@ -4,9 +4,10 @@ Our goal in this project was to increase the transparency of the Airbnb pricing 
 
 Here's just a couple of things to help you get started:
 - Our website can be found at https://samplank.github.io/CS109Airbnb/
-- Our GitHub is organized into 3 main folders: Data Cleaning and Exploration, Data Modeling, and Website
+- Our GitHub is organized into 4 main folders: Data Cleaning and Exploration, Data Modeling, Datasets, and Website
 	- Data Cleaning and Exploration: Here you'll find notebooks dedicated to cleaning and exploring the dataset including listing review sentiment analysis, local attractions data, calendar data (longitudinal pricing data), and the cleaned primary data
 	- Data Modeling: Under this folder you will find notebooks about our model: this includes our baseline, tuning and feature reduction, and our final model
+	- Includes all of the datasets we used for this project
 	- Website: You can find everything we used to make our website here.  This folder is mostly made up of HTML files.
 	- The folders "assets" and "new images" help our website, but contain no important code!
 
